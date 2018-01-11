@@ -1,0 +1,40 @@
+{
+  "name": "passport-bungie-oauth2",
+  "version": "1.0.0",
+  "description": "Bungie OAuth 2.0 authentication strategy for Passport.",
+  "keywords": [
+    "passport",
+    "bungie",
+    "destiny2",
+    "destiny",
+    "oauth2",
+    "auth",
+    "authentication",
+    "identity"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tzelon/passport-bungie-oauth2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Tzelon/passport-bungie-oauth2.git/issues"
+  },
+  "author": {
+    "name": "Tzelon Machluf",
+    "email": "tzelon@moonfire.io"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib/passport-bungie-oauth2",
+  "dependencies": {
+    "passport-oauth2": "^1.4.0",
+    "utils-merge": "^1.0.1"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  }
+}
