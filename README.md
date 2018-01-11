@@ -57,6 +57,6 @@ Tests not yet provided
 This strategy is based on Jared Hanson's GitHub strategy for passport: [Jared Hanson](http://github.com/jaredhanson)
 
 ## License
-express-sslify is licensed under the MIT license.
+licensed under the MIT license.
 
 Copyright (c) 2017-2018 Tzelon Machluf
