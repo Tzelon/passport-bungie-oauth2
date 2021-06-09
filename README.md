@@ -20,7 +20,7 @@ these credentials and calls `done` providing client ID, and callback URL. The li
 
     passport.use(new BungieOAuth2Strategy({
         clientID: BUNGIE_CLIENT_ID,
-        callbackURL: "https://www.example.net/auth/dropbox-oauth2/callback"
+        callbackURL: "https://www.example.net/auth/bungie-oauth2/callback"
       },
       function(accessToken, refreshToken, profile, done) {
         User.findOrCreate({ membershipId: profile.membershipId }, function (err, user) {
@@ -37,7 +37,7 @@ For example, as route middleware in an [Express](http://expressjs.com/)
 application:
 
     app.get('/auth/bungie',
-      passport.authenticate('dropbox-bungie'));
+      passport.authenticate('bungie-oauth2'));
 
     app.get('/auth/bungie/callback', 
       passport.authenticate('bungie-oauth2', { failureRedirect: '/login' }),
