@@ -37,7 +37,7 @@ For example, as route middleware in an [Express](http://expressjs.com/)
 application:
 
     app.get('/auth/bungie',
-      passport.authenticate('dropbox-bungie'));
+      passport.authenticate('bungie-oauth2'));
 
     app.get('/auth/bungie/callback', 
       passport.authenticate('bungie-oauth2', { failureRedirect: '/login' }),
